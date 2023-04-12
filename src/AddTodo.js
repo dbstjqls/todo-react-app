@@ -16,7 +16,7 @@ class AddTodo extends React.Component {
 
     onButtonClick =()=>{
         this.add(this.state.item);
-        this.setState({item:{title:""}});
+        this.setState({item:{title:""}}); // text 값을 추가하고 입력 필드는 초기화시킨다.
     }
 
     enterKeyEventHandler =(e)=>{
